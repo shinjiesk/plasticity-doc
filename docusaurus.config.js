@@ -69,7 +69,7 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
+          /*           {
             title: "Docs",
             items: [
               {
@@ -77,39 +77,27 @@ const config = {
                 to: "/docs/intro",
               },
             ],
-          },
+          }, */
           {
-            title: "Community",
+            /* title: "Community", */
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Plasticity Main Site",
+                href: "https://www.plasticity.xyz/",
               },
             ],
           },
           {
-            title: "More",
+            /* title: "More", */
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Twitter",
+                href: "https://twitter.com/getPlasticity",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© Copyright ${new Date().getFullYear()}. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
